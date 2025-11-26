@@ -1,1 +1,104 @@
- 
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FEFEFE;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_section {
+    padding: 10px 0px;
+    border-bottom: 1px solid #252A31;
+}
+
+.menu_up {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.location_selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.location_selection p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FEFEFE;
+    white-space: nowrap;
+}
+
+.search_input {
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #252A31;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    position: relative;
+    padding: 0px 80px;
+}
+
+.search img {
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+
+::placeholder {
+    color: #EDEDED;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_details {
+    padding-right: 20px;
+}
+
+.user_name p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.log p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.log img {
+    padding-right: 5px;
+}
+
+.left_top{
+    /* padding-right: 30px; */
+}
+.left_said {
+    border-right: 1px solid #252A31 !important;
+    height: 100vh;
+}
+
+.right_said{
+      border-left: 1px solid #252A31 !important;
+    height: 100vh;
+}
