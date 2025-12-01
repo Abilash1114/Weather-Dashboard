@@ -31,4 +31,10 @@ day:'SUN',temp:'21',icon:'assets/images/sun.png'
   }
 ]
 
+citydata=[
+  {
+    city:'Chaina',state:'Beijing',cloud:'Cloudy'
+  }
+]
+
 }

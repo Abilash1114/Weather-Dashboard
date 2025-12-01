@@ -7,6 +7,6 @@
 body {
     background-color: #100F14 !important;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
