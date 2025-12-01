@@ -54,20 +54,78 @@
         <div class="row">
             <div class="col-lg-3 ">
                 <div class="left_top">
-
                     <div class="left_said">
-                        
+                        <div class="curent_state">
+                            <div class="curent_state_1">
+                                <div class="curent_state_date">
+                                    <p>Friday</p>
+                                </div>
+                                <div class="">
+                                    <div class="curent_state_location">
+                                        <p>Chennai</p>
+                                    </div>
+                                    <div class="curent_state_time">
+                                        <p>11:45 AM</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img src="assets/images/left.png" class="img-fluid">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="curent_state_deg">
+                                    <p>21&deg;<span>c</span></p>
+                                </div>
+                                <div class="">
+                                    <div class="curent_state_location">
+                                        <p>Dramatic</p>
+                                    </div>
+                                    <div class="curent_state_time">
+                                        <p>Cloudy</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="daily_updates">
+                            <div class="normal_tit">
+                                <p>Next 7days</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="daily_updates_card" *ngFor="let daily of dailyUpdate">
+                                    <div class="daily_updates_card_date">
+                                        <p>{{daily.day}}</p>
+                                    </div>
+                                    <img [src]="daily.icon" class="img-fluid">
+                                    <div class="daily_updates_card_deg">
+                                        <p>{{daily.temp}}&deg;<span>c</span></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="botes">
+                            <img src="assets/images/botes.png" class="img-fluid">
+                        </div>
+
                     </div>
-                    
+
                 </div>
             </div>
 
             <div class="col-lg-9 right_said">
-                
+<div class="row">
+    <div class="col-lg-12 map_bot">
+        <div class="mapes">
+        <img src="assets/images/map.png" class="img-fluid" style="width: 100%;height: 100%;">
+    </div></div>
+</div>
             </div>
         </div>
     </div>
 </section>
-
 
 <!-- left section end -->
